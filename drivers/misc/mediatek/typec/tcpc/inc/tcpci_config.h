@@ -6,7 +6,6 @@
 #ifndef __LINUX_TCPC_CONFIG_H
 #define __LINUX_TCPC_CONFIG_H
 
-#if IS_ENABLED(CONFIG_TCPC_CLASS)
 /* default config */
 
 #define CONFIG_TYPEC_CAP_A2C_C2C 0
@@ -300,5 +299,4 @@
 
 #define CONFIG_CABLE_TYPE_DETECTION	1
 
-#endif /* CONFIG_TCPC_CLASS */
 #endif /* __LINUX_TCPC_CONFIG_H */
